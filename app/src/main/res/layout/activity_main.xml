@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.blovvme.makingrestcalls.MainActivity">
+
+
+    <Button
+        android:onClick="makingRestCalls"
+        android:text="Native Http"
+       android:id="@+id/btnHttp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:onClick="makingRestCalls"
+        android:text="Using OkHttp"
+        android:id="@+id/btnOkHttp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:onClick="makingRestCalls"
+        android:text="Using OkHttpAssync"
+        android:id="@+id/btnOkHttpAssync"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:onClick="makingRestCalls"
+        android:text="Using Retrofit"
+        android:id="@+id/btnRetrofit"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
